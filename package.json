@@ -1,0 +1,23 @@
+{
+  "name": "awesome-logica-js",
+  "version": "1.0.0",
+  "description": "Coletânea de exercícios de lógica",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reprograma-tech/awesome-logica-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reprograma-tech/awesome-logica-js/issues"
+  },
+  "homepage": "https://github.com/reprograma-tech/awesome-logica-js#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
