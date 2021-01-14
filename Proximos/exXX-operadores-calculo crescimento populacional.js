@@ -6,3 +6,31 @@ Faça um programa que calcule e escreva o número de anos necessários para que 
 */
 
 //SOLUÇÃO
+//como a porcentagem se repete ao ano, cria-se uma potência com (1,03)
+
+function calcula_crescimento(popInicial, taxaAnual, anos){
+    return popInicial * (1 + taxaAnual)**anos
+}
+
+let anos = 1
+let popA = calcula_crescimento(80000, 0.03, anos)
+let popB = calcula_crescimento(200000, 0.015, anos)
+
+ while(popA <= popB){
+    anos++
+    popA = calcula_crescimento(80000, 0.03, anos)
+    popB = calcula_crescimento(200000, 0.015, anos)
+} 
+
+console.log(new Intl.NumberFormat().format(popA))
+console.log(new Intl.NumberFormat().format(popB))
+console.log(`O tempo é de ${anos} anos`)
+
+
+
+
+
+
+
+
+
