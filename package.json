@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/reprograma-tech/awesome-logica-js#readme",
   "dependencies": {
-    "prompt-sync": "^4.2.0"
+    "prompt-sync": "^4.2.0",
+    "synchronous-user-input": "0.0.4"
   }
 }
